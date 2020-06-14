@@ -37,4 +37,7 @@
              </property>
       </bean>
 
+      <!--配置异常处理类-->
+      <bean id="sysExecptionResolver" class="com.gxw.execption.SysExecptionResolver"/>
+
 </beans>

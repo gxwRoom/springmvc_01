@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: GXWadmin
-  Date: 2020/6/11 0011
-  Time: 00:30
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -22,8 +15,8 @@
               3) 提供一个文件选择域：<input  type=”file”/>
       -->
       <form action="user/fileUpload" method="post" enctype="multipart/form-data">
-          文件选择：<input type="file" name="upload"/><br/>
-          <input type="submit" value="上传"/>
+           文件选择：<input type="file" name="upload"/><br/>
+           <input type="submit" value="上传"/>
       </form>
 </body>
 </html>
